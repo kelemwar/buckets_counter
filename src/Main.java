@@ -14,7 +14,7 @@ public class Main {
         int amountWater = sc.nextInt();
 
         calcWater.allWays(amountWater).forEach(System.out::println);
-        System.out.println("count ="+calcWater.allWays(amountWater).size());
+        System.out.println("count = "+calcWater.allWays(amountWater).size());
 
 
 
